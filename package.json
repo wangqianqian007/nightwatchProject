@@ -1,0 +1,19 @@
+{
+  "name": "nightwatchProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "update": "node_modules/.bin/webdriver-manager update",
+    "test": "node_modules/.bin/nightwatch --config nightwatch.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nightwatch": "^0.8.18",
+    "webdriver": "9.0.0"
+  }
+}
