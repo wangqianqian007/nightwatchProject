@@ -4,10 +4,12 @@
   "description": "",
   "main": "index.js",
   "directories": {
-    "test": "test"
+    "test": "e2e test project for Js"
   },
   "scripts": {
     "update": "node_modules/.bin/webdriver-manager update",
+    "clean": "node_modules/.bin/webdriver-manager clean",
+    "status": "node_modules/.bin/webdriver-manager status",
     "test": "node_modules/.bin/nightwatch --config nightwatch.js"
   },
   "author": "",

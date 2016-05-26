@@ -1,5 +1,4 @@
 # nightwatchProject
-r## End to End
 
 This module uses [nightwatch.js](http://nightwatchjs.org/) to run all functional tests.
 
